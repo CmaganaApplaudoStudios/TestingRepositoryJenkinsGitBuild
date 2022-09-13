@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="22" failures="0" name="TestSuite" time="86.896" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="browser" value="chrome"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\CarlosMagana\.jenkins\workspace\MavenSeleniumTestProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\CarlosMagana\.jenkins\workspace\MavenSeleniumTestProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\CARLOS~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\CarlosMagana\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.16/bin;C:\Program Files\Java\jdk-11.0.16/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\CarlosMagana\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GitHub CLI\;C:\Users\CarlosMagana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;;C:\Users\CarlosMagana\AppData\Roaming\npm;C:\Users\CarlosMagana\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;;."/>
+    <property name="maven.conf" value="C:\Users\CarlosMagana\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\CarlosMagana\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\CarlosMagana"/>
+    <property name="user.timezone" value="America/Regina"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="CarlosMagana"/>
+    <property name="java.class.path" value="C:\Users\CarlosMagana\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\CarlosMagana\IdeaProjects\HomeworkWeek8\pom.xml test -Dbrowser=chrome"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\CarlosMagana\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="HomeWorkWeek4" name="setup" time="10.197"/>
+  <testcase classname="HomeWorkWeek4" name="radioButtonsCheck" time="0.313"/>
+  <testcase classname="HomeWorkWeek4" name="autocompleteInputCountries" time="0.748"/>
+  <testcase classname="HomeWorkWeek4" name="dropdownBehavior" time="0.373"/>
+  <testcase classname="HomeWorkWeek4" name="clickOnButtonsAndCompareUrl" time="7.193"/>
+  <testcase classname="HomeWorkWeek4" name="OpenNineTabs" time="2.369"/>
+  <testcase classname="HomeWorkWeek4" name="finished" time="0.645"/>
+  <testcase classname="HomeWorkWeek5" name="setup" time="2.703"/>
+  <testcase classname="HomeWorkWeek5" name="openTabs" time="4.805"/>
+  <testcase classname="HomeWorkWeek5" name="search" time="2.109"/>
+  <testcase classname="HomeWorkWeek5" name="hoverActions" time="2.782"/>
+  <testcase classname="HomeWorkWeek6" name="setup" time="4.853"/>
+  <testcase classname="HomeWorkWeek6" name="formsTest" time="1.354"/>
+  <testcase classname="HomeWorkWeek6" name="tabsTest" time="1.656"/>
+  <testcase classname="HomeWorkWeek6" name="alertsTest" time="5.265"/>
+  <testcase classname="HomeWorkWeek6" name="finishSession" time="0.544"/>
+  <testcase classname="APITest" name="serverValidation" time="1.936"/>
+  <testcase classname="APITest" name="getUserThatMatchEmail" time="1.262"/>
+  <testcase classname="APITest" name="createUser" time="0.562"/>
+  <testcase classname="APITest" name="createUser" time="0.449"/>
+  <testcase classname="APITest" name="createUser" time="33.585"/>
+  <testcase classname="APITest" name="saveRequestInPOJO" time="1.193"/>
+</testsuite>

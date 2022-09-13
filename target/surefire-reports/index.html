@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-suite1" class="navigator-link">
+              <span class="suite-name border-passed">suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-suite1" class="navigator-link ">
+                    <span>C:\Users\CarlosMagana\IdeaProjects\HomeworkWeek8\suiteUITests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-suite1" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-suite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite1" class="hide-methods passed suite-suite1"> (hide)</a> <!-- hide-methods passed suite-suite1 -->
+                      <a href="#" panel-name="suite-suite1" class="show-methods passed suite-suite1"> (show)</a> <!-- show-methods passed suite-suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek4" class="method navigator-link" hash-for-method="OpenNineTabs">OpenNineTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek6" class="method navigator-link" hash-for-method="alertsTest">alertsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek4" class="method navigator-link" hash-for-method="autocompleteInputCountries">autocompleteInputCountries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek4" class="method navigator-link" hash-for-method="clickOnButtonsAndCompareUrl">clickOnButtonsAndCompareUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek4" class="method navigator-link" hash-for-method="dropdownBehavior">dropdownBehavior</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek6" class="method navigator-link" hash-for-method="finishSession">finishSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek4" class="method navigator-link" hash-for-method="finished">finished</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek6" class="method navigator-link" hash-for-method="formsTest">formsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek5" class="method navigator-link" hash-for-method="hoverActions">hoverActions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek5" class="method navigator-link" hash-for-method="openTabs">openTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek4" class="method navigator-link" hash-for-method="radioButtonsCheck">radioButtonsCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek5" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek4" class="method navigator-link" hash-for-method="setup">setup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek5" class="method navigator-link" hash-for-method="setup">setup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek6" class="method navigator-link" hash-for-method="setup">setup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1" title="HomeWorkWeek6" class="method navigator-link" hash-for-method="tabsTest">tabsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-suite1__0_" class="navigator-link">
+              <span class="suite-name border-passed">suite1 (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-suite1__0_" class="navigator-link ">
+                    <span>C:\Users\CarlosMagana\IdeaProjects\HomeworkWeek8\suiteAPITests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-suite1__0_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-suite1__0_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-suite1__0_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-suite1__0_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-suite1__0_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-suite1__0_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite1__0_" class="hide-methods passed suite-suite1__0_"> (hide)</a> <!-- hide-methods passed suite-suite1__0_ -->
+                      <a href="#" panel-name="suite-suite1__0_" class="show-methods passed suite-suite1__0_"> (show)</a> <!-- show-methods passed suite-suite1__0_ -->
+                    </span>
+                    <div class="method-list-content passed suite-suite1__0_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1__0_" title="APITest" class="method navigator-link" hash-for-method="createUser(Verstappen, driver)">createUser(Verstappen, driver)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1__0_" title="APITest" class="method navigator-link" hash-for-method="createUser(morpheus, leader)">createUser(morpheus, leader)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1__0_" title="APITest" class="method navigator-link" hash-for-method="createUser(Ronaldinho, footballer)">createUser(Ronaldinho, footballer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1__0_" title="APITest" class="method navigator-link" hash-for-method="getUserThatMatchEmail">getUserThatMatchEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1__0_" title="APITest" class="method navigator-link" hash-for-method="saveRequestInPOJO">saveRequestInPOJO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite1__0_" title="APITest" class="method navigator-link" hash-for-method="serverValidation">serverValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite1__0_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-suite1" class="panel suite1">
+          <div class="suite-suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomeWorkWeek5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hoverActions">
+                  </a> <!-- hoverActions -->
+                  <span class="method-name">hoverActions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openTabs">
+                  </a> <!-- openTabs -->
+                  <span class="method-name">openTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup">
+                  </a> <!-- setup -->
+                  <span class="method-name">setup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite1-class-passed -->
+          <div class="suite-suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomeWorkWeek6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertsTest">
+                  </a> <!-- alertsTest -->
+                  <span class="method-name">alertsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="finishSession">
+                  </a> <!-- finishSession -->
+                  <span class="method-name">finishSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsTest">
+                  </a> <!-- formsTest -->
+                  <span class="method-name">formsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup">
+                  </a> <!-- setup -->
+                  <span class="method-name">setup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tabsTest">
+                  </a> <!-- tabsTest -->
+                  <span class="method-name">tabsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite1-class-passed -->
+          <div class="suite-suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomeWorkWeek4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenNineTabs">
+                  </a> <!-- OpenNineTabs -->
+                  <span class="method-name">OpenNineTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="autocompleteInputCountries">
+                  </a> <!-- autocompleteInputCountries -->
+                  <span class="method-name">autocompleteInputCountries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnButtonsAndCompareUrl">
+                  </a> <!-- clickOnButtonsAndCompareUrl -->
+                  <span class="method-name">clickOnButtonsAndCompareUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdownBehavior">
+                  </a> <!-- dropdownBehavior -->
+                  <span class="method-name">dropdownBehavior</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="finished">
+                  </a> <!-- finished -->
+                  <span class="method-name">finished</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="radioButtonsCheck">
+                  </a> <!-- radioButtonsCheck -->
+                  <span class="method-name">radioButtonsCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup">
+                  </a> <!-- setup -->
+                  <span class="method-name">setup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite1-class-passed -->
+        </div> <!-- panel suite1 -->
+        <div panel-name="suite-suite1__0_" class="panel suite1__0_">
+          <div class="suite-suite1__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">APITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(Verstappen, driver)">
+                  </a> <!-- createUser(Verstappen, driver) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(Verstappen, driver)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(morpheus, leader)">
+                  </a> <!-- createUser(morpheus, leader) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(morpheus, leader)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(Ronaldinho, footballer)">
+                  </a> <!-- createUser(Ronaldinho, footballer) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(Ronaldinho, footballer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserThatMatchEmail">
+                  </a> <!-- getUserThatMatchEmail -->
+                  <span class="method-name">getUserThatMatchEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveRequestInPOJO">
+                  </a> <!-- saveRequestInPOJO -->
+                  <span class="method-name">saveRequestInPOJO</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="serverValidation">
+                  </a> <!-- serverValidation -->
+                  <span class="method-name">serverValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite1__0_-class-passed -->
+        </div> <!-- panel suite1__0_ -->
+        <div panel-name="test-xml-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\CarlosMagana\IdeaProjects\HomeworkWeek8\suiteUITests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;suite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression1&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;HomeWorkWeek4&quot;/&gt;
+      &lt;class name=&quot;HomeWorkWeek5&quot;/&gt;
+      &lt;class name=&quot;HomeWorkWeek6&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression1 --&gt;
+&lt;/suite&gt; &lt;!-- suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-suite1__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\CarlosMagana\IdeaProjects\HomeworkWeek8\suiteAPITests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;suite1 (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression1&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;APITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression1 --&gt;
+&lt;/suite&gt; &lt;!-- suite1 (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression1 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite1__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite1__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite1');
+function tableData_suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'setup')
+data.setCell(0, 2, 'HomeWorkWeek4')
+data.setCell(0, 3, 10194);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnButtonsAndCompareUrl')
+data.setCell(1, 2, 'HomeWorkWeek4')
+data.setCell(1, 3, 7192);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'alertsTest')
+data.setCell(2, 2, 'HomeWorkWeek6')
+data.setCell(2, 3, 5265);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'setup')
+data.setCell(3, 2, 'HomeWorkWeek6')
+data.setCell(3, 3, 4853);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'openTabs')
+data.setCell(4, 2, 'HomeWorkWeek5')
+data.setCell(4, 3, 4805);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'hoverActions')
+data.setCell(5, 2, 'HomeWorkWeek5')
+data.setCell(5, 3, 2781);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'setup')
+data.setCell(6, 2, 'HomeWorkWeek5')
+data.setCell(6, 3, 2703);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'OpenNineTabs')
+data.setCell(7, 2, 'HomeWorkWeek4')
+data.setCell(7, 3, 2369);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'search')
+data.setCell(8, 2, 'HomeWorkWeek5')
+data.setCell(8, 3, 2109);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tabsTest')
+data.setCell(9, 2, 'HomeWorkWeek6')
+data.setCell(9, 3, 1656);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'formsTest')
+data.setCell(10, 2, 'HomeWorkWeek6')
+data.setCell(10, 3, 1354);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'autocompleteInputCountries')
+data.setCell(11, 2, 'HomeWorkWeek4')
+data.setCell(11, 3, 749);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'finished')
+data.setCell(12, 2, 'HomeWorkWeek4')
+data.setCell(12, 3, 644);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'finishSession')
+data.setCell(13, 2, 'HomeWorkWeek6')
+data.setCell(13, 3, 544);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dropdownBehavior')
+data.setCell(14, 2, 'HomeWorkWeek4')
+data.setCell(14, 3, 374);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'radioButtonsCheck')
+data.setCell(15, 2, 'HomeWorkWeek4')
+data.setCell(15, 3, 313);
+window.suiteTableData['suite1']= { tableData: data, tableDiv: 'times-div-suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-suite1">
+              </div> <!-- times-div-suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite1__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite1__0_');
+function tableData_suite1__0_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createUser')
+data.setCell(0, 2, 'APITest')
+data.setCell(0, 3, 33586);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'serverValidation')
+data.setCell(1, 2, 'APITest')
+data.setCell(1, 3, 1935);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getUserThatMatchEmail')
+data.setCell(2, 2, 'APITest')
+data.setCell(2, 3, 1262);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'saveRequestInPOJO')
+data.setCell(3, 2, 'APITest')
+data.setCell(3, 3, 1193);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUser')
+data.setCell(4, 2, 'APITest')
+data.setCell(4, 3, 561);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createUser')
+data.setCell(5, 2, 'APITest')
+data.setCell(5, 3, 449);
+window.suiteTableData['suite1__0_']= { tableData: data, tableDiv: 'times-div-suite1__0_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-suite1__0_">
+              </div> <!-- times-div-suite1__0_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite1__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite1__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomeWorkWeek4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">radioButtonsCheck</span>
+                <span class="method-start">10198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">autocompleteInputCountries</span>
+                <span class="method-start">10511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dropdownBehavior</span>
+                <span class="method-start">11260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnButtonsAndCompareUrl</span>
+                <span class="method-start">11635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OpenNineTabs</span>
+                <span class="method-start">18828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">finished</span>
+                <span class="method-start">21198 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomeWorkWeek5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setup</span>
+                <span class="method-start">21844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openTabs</span>
+                <span class="method-start">24548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">29353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hoverActions</span>
+                <span class="method-start">31463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomeWorkWeek6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setup</span>
+                <span class="method-start">34245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">formsTest</span>
+                <span class="method-start">39099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tabsTest</span>
+                <span class="method-start">40453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">alertsTest</span>
+                <span class="method-start">42109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">finishSession</span>
+                <span class="method-start">47375 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite1__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">APITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">serverValidation</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserThatMatchEmail</span>
+                <span class="method-start">1936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(morpheus, leader)</span>
+                <span class="method-start">3200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(Ronaldinho, footballer)</span>
+                <span class="method-start">3762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(Verstappen, driver)</span>
+                <span class="method-start">4211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">saveRequestInPOJO</span>
+                <span class="method-start">37797 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

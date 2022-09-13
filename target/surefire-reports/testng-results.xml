@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-13T11:54:08 CST" name="suite1" finished-at="2022-09-13T11:54:55 CST" duration-ms="47940">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T11:54:08 CST" name="Regression1" finished-at="2022-09-13T11:54:55 CST" duration-ms="47940">
+      <class name="HomeWorkWeek4">
+        <test-method signature="setup()[pri:1, instance:HomeWorkWeek4@e1de817]" started-at="2022-09-13T11:54:08 CST" name="setup" finished-at="2022-09-13T11:54:18 CST" duration-ms="10194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="radioButtonsCheck()[pri:2, instance:HomeWorkWeek4@e1de817]" started-at="2022-09-13T11:54:18 CST" name="radioButtonsCheck" finished-at="2022-09-13T11:54:18 CST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonsCheck -->
+        <test-method signature="autocompleteInputCountries()[pri:3, instance:HomeWorkWeek4@e1de817]" started-at="2022-09-13T11:54:18 CST" name="autocompleteInputCountries" finished-at="2022-09-13T11:54:19 CST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autocompleteInputCountries -->
+        <test-method signature="dropdownBehavior()[pri:4, instance:HomeWorkWeek4@e1de817]" started-at="2022-09-13T11:54:19 CST" name="dropdownBehavior" finished-at="2022-09-13T11:54:19 CST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownBehavior -->
+        <test-method signature="clickOnButtonsAndCompareUrl()[pri:5, instance:HomeWorkWeek4@e1de817]" started-at="2022-09-13T11:54:19 CST" name="clickOnButtonsAndCompareUrl" finished-at="2022-09-13T11:54:26 CST" duration-ms="7192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnButtonsAndCompareUrl -->
+        <test-method signature="OpenNineTabs()[pri:6, instance:HomeWorkWeek4@e1de817]" started-at="2022-09-13T11:54:26 CST" name="OpenNineTabs" finished-at="2022-09-13T11:54:29 CST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenNineTabs -->
+        <test-method signature="finished()[pri:6, instance:HomeWorkWeek4@e1de817]" started-at="2022-09-13T11:54:29 CST" name="finished" finished-at="2022-09-13T11:54:29 CST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finished -->
+      </class> <!-- HomeWorkWeek4 -->
+      <class name="HomeWorkWeek5">
+        <test-method signature="setup()[pri:1, instance:HomeWorkWeek5@770d3326]" started-at="2022-09-13T11:54:29 CST" name="setup" finished-at="2022-09-13T11:54:32 CST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openTabs()[pri:2, instance:HomeWorkWeek5@770d3326]" started-at="2022-09-13T11:54:32 CST" name="openTabs" finished-at="2022-09-13T11:54:37 CST" duration-ms="4805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTabs -->
+        <test-method signature="search()[pri:3, instance:HomeWorkWeek5@770d3326]" started-at="2022-09-13T11:54:37 CST" name="search" finished-at="2022-09-13T11:54:39 CST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="hoverActions()[pri:4, instance:HomeWorkWeek5@770d3326]" started-at="2022-09-13T11:54:39 CST" name="hoverActions" finished-at="2022-09-13T11:54:42 CST" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverActions -->
+      </class> <!-- HomeWorkWeek5 -->
+      <class name="HomeWorkWeek6">
+        <test-method signature="setup()[pri:1, instance:HomeWorkWeek6@4cc8eb05]" started-at="2022-09-13T11:54:42 CST" name="setup" finished-at="2022-09-13T11:54:47 CST" duration-ms="4853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsTest()[pri:2, instance:HomeWorkWeek6@4cc8eb05]" started-at="2022-09-13T11:54:47 CST" name="formsTest" finished-at="2022-09-13T11:54:48 CST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsTest -->
+        <test-method signature="tabsTest()[pri:3, instance:HomeWorkWeek6@4cc8eb05]" started-at="2022-09-13T11:54:48 CST" name="tabsTest" finished-at="2022-09-13T11:54:50 CST" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabsTest -->
+        <test-method signature="alertsTest()[pri:4, instance:HomeWorkWeek6@4cc8eb05]" started-at="2022-09-13T11:54:50 CST" name="alertsTest" finished-at="2022-09-13T11:54:55 CST" duration-ms="5265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method signature="finishSession()[pri:5, instance:HomeWorkWeek6@4cc8eb05]" started-at="2022-09-13T11:54:55 CST" name="finishSession" finished-at="2022-09-13T11:54:55 CST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishSession -->
+      </class> <!-- HomeWorkWeek6 -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- suite1 -->
+  <suite started-at="2022-09-13T11:54:56 CST" name="suite1 (0)" finished-at="2022-09-13T11:55:35 CST" duration-ms="38990">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T11:54:56 CST" name="Regression1" finished-at="2022-09-13T11:55:35 CST" duration-ms="38990">
+      <class name="APITest">
+        <test-method signature="serverValidation()[pri:1, instance:APITest@69997e9d]" started-at="2022-09-13T11:54:56 CST" name="serverValidation" finished-at="2022-09-13T11:54:57 CST" duration-ms="1935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serverValidation -->
+        <test-method signature="getUserThatMatchEmail()[pri:2, instance:APITest@69997e9d]" started-at="2022-09-13T11:54:57 CST" name="getUserThatMatchEmail" finished-at="2022-09-13T11:54:59 CST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserThatMatchEmail -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:3, instance:APITest@69997e9d]" started-at="2022-09-13T11:54:59 CST" name="createUser" data-provider="dataForUsers" finished-at="2022-09-13T11:54:59 CST" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[morpheus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:3, instance:APITest@69997e9d]" started-at="2022-09-13T11:54:59 CST" name="createUser" data-provider="dataForUsers" finished-at="2022-09-13T11:55:00 CST" duration-ms="449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ronaldinho]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[footballer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:3, instance:APITest@69997e9d]" started-at="2022-09-13T11:55:00 CST" name="createUser" data-provider="dataForUsers" finished-at="2022-09-13T11:55:33 CST" duration-ms="33586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verstappen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[driver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="saveRequestInPOJO()[pri:4, instance:APITest@69997e9d]" started-at="2022-09-13T11:55:33 CST" name="saveRequestInPOJO" finished-at="2022-09-13T11:55:35 CST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveRequestInPOJO -->
+      </class> <!-- APITest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- suite1 (0) -->
+</testng-results>

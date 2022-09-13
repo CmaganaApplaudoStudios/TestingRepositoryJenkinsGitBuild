@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Regression1(failed)" verbose="0">
+    <classes>
+      <class name="HomeWorkWeek5">
+        <methods>
+          <include name="hoverActions"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- HomeWorkWeek5 -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [suite1] -->
