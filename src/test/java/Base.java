@@ -35,7 +35,7 @@ public class Base {
         return this.driver;
     }
 
-    //Method that creates the connection with Firefox
+    //Method that creates the connection with Firefoxx
     public WebDriver firefoxDriverConnection() {
         System.setProperty("webdriver.gecko.driver", "./src/drivers/geckodriver.exe");
         this.driver = new FirefoxDriver();
