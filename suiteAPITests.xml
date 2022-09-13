@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="suite1" verbose="1">
+<suite name="suiteAPI" verbose="1">
 
-    <test name="Regression1">
+    <test name="RegressionAPI">
         <classes>
             <class name="APITest"/>
         </classes>
